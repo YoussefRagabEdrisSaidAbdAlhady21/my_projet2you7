@@ -1,0 +1,137 @@
+body{
+    font-family: "Varela Round", sans-serif;
+ }
+ ul{
+    list-style: none;
+ }
+ .container{
+    width:95%;
+    margin:auto;
+ }
+ .containers{
+    width:80%;
+    margin:auto;
+ }
+ .header-content{
+    overflow: hidden;
+
+
+}
+.header{
+    border-bottom:0.0000000000000000000000001px  solid  #e4e2e2;
+/*     
+    position: fixed; */
+    width: 100%;
+    z-index:10;
+}
+.header-logo{
+    width:30%;
+    float:left;
+    text-align:center;
+
+}
+.header-logo h2{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top:10px;
+  
+}
+
+.header-list{
+    width:70%;
+    float: left;
+}
+a{
+    text-decoration: none;
+    
+    text-transform:uppercase;
+    font-size:small;
+    color: #000;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    display: block;
+}
+ul{
+    overflow: hidden;
+}
+li{
+   float: left;
+   display: block;
+   padding:6px;
+   text-align: right;
+}
+.section-header{
+    text-align: center;
+}
+
+.section-header-title{
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.section-header-line-span{
+    width:16%;
+    background-color:#bebebe;
+    margin-left:55%;
+    height:3.5px;
+   
+
+}
+.section-header-line{
+    width:80%;
+    text-align: center;
+}
+.section-header-line p{
+    margin-left:27%;
+    line-height:1.8;
+    color: #999;
+    margin-bottom: 80px;
+}
+.section-header-line span{
+    display: block;
+    height:5px;
+    width:60px;
+    background-color:#6e9b30;
+    margin: auto;
+
+}
+.content-cont{
+    overflow: hidden;
+}
+.content-item{
+    width:30%;
+    float: left;
+    margin-bottom:30px;
+    border:0.00000000000000000001px solid #999;
+    text-align: center;
+    padding:2px;
+}
+.mg{
+    margin:0 30px;
+}
+.content-item p{
+    line-height:1.6;
+    font-size:13px;
+    color:#999;
+    
+}
+.content-item-icon{
+    border-radius: 50%;
+    width:65px;
+    height:65px;
+    background-color: #6e9b30;
+    text-align: center;
+    margin:auto;
+    margin-top:20px;
+  
+}
+
+.content-item-icon i{
+    color:#fff;
+  
+    font-size:25px;
+    margin-top:20px; 
+
+
+}
